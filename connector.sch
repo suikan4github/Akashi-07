@@ -19,7 +19,7 @@ U 1 1 5F0EB501
 P 1950 1950
 F 0 "J4" H 2030 1942 50  0000 L CNN
 F 1 "Conn_01x08" H 2030 1851 50  0000 L CNN
-F 2 "" H 1950 1950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1950 1950 50  0001 C CNN
 F 3 "~" H 1950 1950 50  0001 C CNN
 	1    1950 1950
 	-1   0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5F0ED78C
 P 1950 2950
 F 0 "J5" H 2030 2942 50  0000 L CNN
 F 1 "Conn_01x06" H 2030 2851 50  0000 L CNN
-F 2 "" H 1950 2950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 1950 2950 50  0001 C CNN
 F 3 "~" H 1950 2950 50  0001 C CNN
 	1    1950 2950
 	-1   0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5F0EE0AC
 P 7000 3450
 F 0 "J7" H 6918 2825 50  0000 C CNN
 F 1 "Conn_01x08" H 6918 2916 50  0000 C CNN
-F 2 "" H 7000 3450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7000 3450 50  0001 C CNN
 F 3 "~" H 7000 3450 50  0001 C CNN
 	1    7000 3450
 	1    0    0    1   
@@ -52,7 +52,7 @@ U 1 1 5F0EF207
 P 7000 2250
 F 0 "J6" H 6918 1525 50  0000 C CNN
 F 1 "Conn_01x10" H 6918 1616 50  0000 C CNN
-F 2 "" H 7000 2250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 7000 2250 50  0001 C CNN
 F 3 "~" H 7000 2250 50  0001 C CNN
 	1    7000 2250
 	1    0    0    1   
@@ -73,8 +73,8 @@ L Device:C C17
 U 1 1 5F0FF888
 P 3400 2300
 F 0 "C17" H 3515 2346 50  0000 L CNN
-F 1 "C" H 3515 2255 50  0000 L CNN
-F 2 "" H 3438 2150 50  0001 C CNN
+F 1 "0.1u" H 3515 2255 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3438 2150 50  0001 C CNN
 F 3 "~" H 3400 2300 50  0001 C CNN
 	1    3400 2300
 	1    0    0    -1  
@@ -84,8 +84,8 @@ L Device:CP C16
 U 1 1 5F0FFE19
 P 3000 2300
 F 0 "C16" H 3118 2346 50  0000 L CNN
-F 1 "CP" H 3118 2255 50  0000 L CNN
-F 2 "" H 3038 2150 50  0001 C CNN
+F 1 "47u" H 3118 2255 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P2.50mm" H 3038 2150 50  0001 C CNN
 F 3 "~" H 3000 2300 50  0001 C CNN
 	1    3000 2300
 	1    0    0    -1  
@@ -95,8 +95,8 @@ L Device:C C18
 U 1 1 5F100006
 P 4600 2300
 F 0 "C18" H 4715 2346 50  0000 L CNN
-F 1 "C" H 4715 2255 50  0000 L CNN
-F 2 "" H 4638 2150 50  0001 C CNN
+F 1 "0.1u" H 4715 2255 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4638 2150 50  0001 C CNN
 F 3 "~" H 4600 2300 50  0001 C CNN
 	1    4600 2300
 	1    0    0    -1  
@@ -106,8 +106,8 @@ L Device:CP C19
 U 1 1 5F100230
 P 5000 2300
 F 0 "C19" H 5118 2346 50  0000 L CNN
-F 1 "CP" H 5118 2255 50  0000 L CNN
-F 2 "" H 5038 2150 50  0001 C CNN
+F 1 "47u" H 5118 2255 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P2.50mm" H 5038 2150 50  0001 C CNN
 F 3 "~" H 5000 2300 50  0001 C CNN
 	1    5000 2300
 	1    0    0    -1  
@@ -202,23 +202,23 @@ Wire Wire Line
 Wire Wire Line
 	2150 2050 3000 2050
 Wire Wire Line
-	2150 2150 2500 2150
+	2150 2150 2650 2150
 Wire Wire Line
-	2500 2150 2500 2250
+	2650 2150 2650 2250
 Wire Wire Line
-	2150 2250 2500 2250
-Connection ~ 2500 2250
+	2150 2250 2650 2250
+Connection ~ 2650 2250
 Wire Wire Line
-	2500 2250 2500 2650
+	2650 2250 2650 2650
 $Comp
 L power:GND #PWR0106
 U 1 1 5F10FCB9
-P 2500 2650
-F 0 "#PWR0106" H 2500 2400 50  0001 C CNN
-F 1 "GND" H 2505 2477 50  0000 C CNN
-F 2 "" H 2500 2650 50  0001 C CNN
-F 3 "" H 2500 2650 50  0001 C CNN
-	1    2500 2650
+P 2650 2650
+F 0 "#PWR0106" H 2650 2400 50  0001 C CNN
+F 1 "GND" H 2655 2477 50  0000 C CNN
+F 2 "" H 2650 2650 50  0001 C CNN
+F 3 "" H 2650 2650 50  0001 C CNN
+	1    2650 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -238,7 +238,6 @@ Wire Wire Line
 	6550 2050 6550 2700
 NoConn ~ 2150 1650
 NoConn ~ 2150 1750
-NoConn ~ 2150 1850
 NoConn ~ 2150 1950
 NoConn ~ 2150 2350
 NoConn ~ 2150 2750
@@ -306,4 +305,24 @@ Text HLabel 6350 1750 0    50   Input ~ 0
 SCL
 Text HLabel 6350 1850 0    50   Input ~ 0
 SDA
+Wire Wire Line
+	2650 2150 2650 1850
+Wire Wire Line
+	2650 1850 2600 1850
+Connection ~ 2650 2150
+Wire Wire Line
+	2200 1850 2150 1850
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F2D861D
+P 2400 1850
+F 0 "SW1" H 2400 2135 50  0000 C CNN
+F 1 "SW_Push" H 2400 2044 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h5mm" H 2400 2050 50  0001 C CNN
+F 3 "~" H 2400 2050 50  0001 C CNN
+	1    2400 1850
+	1    0    0    -1  
+$EndComp
+Text Notes 7300 3100 0    50   ~ 0
+J6 pin 5 is "rescue" pin for I2C SCL.\nIn case of some slave I2C SDA is stick to "L", \ntoggling SCL by this rescue pin can release the \nslave. \n\nThis rescue pin have to be configured as open \ndrain, and have to be kept as "H" during \nnormal operation. \n\nJ6 pin 5 is PA6 of Nucleo G431RB and F722ZE
 $EndSCHEMATC
