@@ -31,7 +31,7 @@ P 1350 4450
 F 0 "X1" H 950 3900 50  0000 L CNN
 F 1 "CSX-750FBC25000000T" H 950 3800 50  0000 L CNN
 F 2 "Oscillators:Oscillator_SMD_SeikoEpson_SG8002CA-4pin_7.0x5.0mm_HandSoldering" H 2050 4100 50  0001 C CNN
-F 3 "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-51P" H 1250 4450 50  0001 C CNN
+F 3 "https://www.digikey.jp/product-detail/ja/citizen-finedevice-co-ltd/CSX-750FBC25000000T/300-7246-1-ND/482134" H 1250 4450 50  0001 C CNN
 	1    1350 4450
 	1    0    0    -1  
 $EndComp
@@ -42,7 +42,7 @@ P 4700 4550
 F 0 "U2" H 4300 5000 50  0000 C CNN
 F 1 "SN74LVC74APW" H 4300 4850 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 4700 4550 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 4700 4550 50  0001 C CNN
+F 3 "https://www.tij.co.jp/product/jp/SN74LVC74A" H 4700 4550 50  0001 C CNN
 	1    4700 4550
 	1    0    0    -1  
 $EndComp
@@ -330,7 +330,7 @@ P 6850 5350
 F 0 "U2" H 7080 5396 50  0000 L CNN
 F 1 "SN74LVC74APW" H 7080 5305 50  0000 L CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 6850 5350 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 6850 5350 50  0001 C CNN
+F 3 "https://www.tij.co.jp/product/jp/SN74LVC74A" H 6850 5350 50  0001 C CNN
 	3    6850 5350
 	1    0    0    -1  
 $EndComp
@@ -341,7 +341,7 @@ P 9050 2700
 F 0 "U4" H 9050 3067 50  0000 C CNN
 F 1 "AD8032ANZ" H 9050 2976 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 9150 2700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf" H 9300 2850 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8031_8032.pdf" H 9300 2850 50  0001 C CNN
 	1    9050 2700
 	1    0    0    -1  
 $EndComp
@@ -352,7 +352,7 @@ P 9050 3700
 F 0 "U4" H 9050 4067 50  0000 C CNN
 F 1 "AD8032ANZ" H 9050 3976 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 9150 3700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf" H 9300 3850 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8031_8032.pdf" H 9300 3850 50  0001 C CNN
 	2    9050 3700
 	1    0    0    -1  
 $EndComp
@@ -363,7 +363,7 @@ P 9100 5300
 F 0 "U4" H 9158 5346 50  0000 L CNN
 F 1 "AD8032ANZ" H 9158 5255 50  0000 L CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 9200 5300 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf" H 9350 5450 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8031_8032.pdf" H 9350 5450 50  0001 C CNN
 	3    9100 5300
 	1    0    0    -1  
 $EndComp
@@ -378,7 +378,7 @@ P 5850 2500
 F 0 "U3" H 6650 2987 60  0000 C CNN
 F 1 "TS5A23157DGSR" H 6650 2881 60  0000 C CNN
 F 2 "project_lib:TS5A23157DGSR" H 6650 2840 60  0001 C CNN
-F 3 "" H 5850 2500 60  0000 C CNN
+F 3 "https://www.tij.co.jp/product/jp/TS5A23157" H 5850 2500 60  0000 C CNN
 	1    5850 2500
 	1    0    0    -1  
 $EndComp
@@ -597,9 +597,9 @@ L Connector:AudioJack2_Ground J3
 U 1 1 5F0E06D9
 P 10300 3250
 F 0 "J3" H 10120 3176 50  0000 R CNN
-F 1 "AudioJack2_Ground" H 10350 3500 50  0000 R CNN
-F 2 "" H 10300 3250 50  0001 C CNN
-F 3 "~" H 10300 3250 50  0001 C CNN
+F 1 "SJ1-3533" H 10350 3500 50  0000 R CNN
+F 2 "project_lib:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles" H 10300 3250 50  0001 C CNN
+F 3 "https://www.digikey.jp/product-detail/ja/cui-devices/SJ1-3533/CP1-3533-ND/738695" H 10300 3250 50  0001 C CNN
 	1    10300 3250
 	-1   0    0    -1  
 $EndComp
@@ -1058,7 +1058,7 @@ P 4700 5600
 F 0 "U2" H 4300 5300 50  0000 C CNN
 F 1 "SN74LVC74APW" H 4300 5200 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 4700 5600 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 4700 5600 50  0001 C CNN
+F 3 "https://www.tij.co.jp/product/jp/SN74LVC74A" H 4700 5600 50  0001 C CNN
 	2    4700 5600
 	1    0    0    -1  
 $EndComp

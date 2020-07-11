@@ -16,16 +16,16 @@ $EndDescr
 $Sheet
 S 2150 1550 2250 1300
 U 5F09EE5F
-F0 "signal" 50
-F1 "signal.sch" 50
+F0 "signal" 100
+F1 "signal.sch" 100
 F2 "SCL" B R 4400 1950 50 
 F3 "SDA" B R 4400 2200 50 
 $EndSheet
 $Sheet
 S 2150 3450 2250 1150
 U 5F0E7241
-F0 "connector" 50
-F1 "connector.sch" 50
+F0 "connector" 100
+F1 "connector.sch" 100
 F2 "SCL" B R 4400 3750 50 
 F3 "SDA" B R 4400 4000 50 
 $EndSheet
