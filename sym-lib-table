@@ -2,4 +2,5 @@
   (lib (name TS5A23157)(type Legacy)(uri ${KIPRJMOD}/lib/TS5A23157DGSR.lib)(options "")(descr "Analog Switch"))
   (lib (name AD8032ANZ)(type Legacy)(uri ${KIPRJMOD}/lib/AD8032ANZ.lib)(options "")(descr ""))
   (lib (name TA48L033)(type Legacy)(uri ${KIPRJMOD}/lib/TA48L033.lib)(options "")(descr ""))
+  (lib (name SJ1-3533)(type Legacy)(uri ${KIPRJMOD}/lib/SJ1-3533.lib)(options "")(descr ""))
 )

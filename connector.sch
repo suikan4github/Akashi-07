@@ -113,10 +113,10 @@ F 3 "~" H 5000 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR032
 U 1 1 5F104015
 P 4050 2650
-F 0 "#PWR0101" H 4050 2400 50  0001 C CNN
+F 0 "#PWR032" H 4050 2400 50  0001 C CNN
 F 1 "GND" H 4055 2477 50  0000 C CNN
 F 2 "" H 4050 2650 50  0001 C CNN
 F 3 "" H 4050 2650 50  0001 C CNN
@@ -124,10 +124,10 @@ F 3 "" H 4050 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR031
 U 1 1 5F105017
 P 3400 2650
-F 0 "#PWR0102" H 3400 2400 50  0001 C CNN
+F 0 "#PWR031" H 3400 2400 50  0001 C CNN
 F 1 "GND" H 3405 2477 50  0000 C CNN
 F 2 "" H 3400 2650 50  0001 C CNN
 F 3 "" H 3400 2650 50  0001 C CNN
@@ -135,10 +135,10 @@ F 3 "" H 3400 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L power:GND #PWR030
 U 1 1 5F1052CF
 P 3000 2650
-F 0 "#PWR0103" H 3000 2400 50  0001 C CNN
+F 0 "#PWR030" H 3000 2400 50  0001 C CNN
 F 1 "GND" H 3005 2477 50  0000 C CNN
 F 2 "" H 3000 2650 50  0001 C CNN
 F 3 "" H 3000 2650 50  0001 C CNN
@@ -146,10 +146,10 @@ F 3 "" H 3000 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR033
 U 1 1 5F1054A0
 P 4600 2650
-F 0 "#PWR0104" H 4600 2400 50  0001 C CNN
+F 0 "#PWR033" H 4600 2400 50  0001 C CNN
 F 1 "GND" H 4605 2477 50  0000 C CNN
 F 2 "" H 4600 2650 50  0001 C CNN
 F 3 "" H 4600 2650 50  0001 C CNN
@@ -157,10 +157,10 @@ F 3 "" H 4600 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L power:GND #PWR034
 U 1 1 5F105733
 P 5000 2650
-F 0 "#PWR0105" H 5000 2400 50  0001 C CNN
+F 0 "#PWR034" H 5000 2400 50  0001 C CNN
 F 1 "GND" H 5005 2477 50  0000 C CNN
 F 2 "" H 5000 2650 50  0001 C CNN
 F 3 "" H 5000 2650 50  0001 C CNN
@@ -211,10 +211,10 @@ Connection ~ 2650 2250
 Wire Wire Line
 	2650 2250 2650 2650
 $Comp
-L power:GND #PWR0106
+L power:GND #PWR029
 U 1 1 5F10FCB9
 P 2650 2650
-F 0 "#PWR0106" H 2650 2400 50  0001 C CNN
+F 0 "#PWR029" H 2650 2400 50  0001 C CNN
 F 1 "GND" H 2655 2477 50  0000 C CNN
 F 2 "" H 2650 2650 50  0001 C CNN
 F 3 "" H 2650 2650 50  0001 C CNN
@@ -222,10 +222,10 @@ F 3 "" H 2650 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L power:GND #PWR036
 U 1 1 5F110343
 P 6550 2700
-F 0 "#PWR0107" H 6550 2450 50  0001 C CNN
+F 0 "#PWR036" H 6550 2450 50  0001 C CNN
 F 1 "GND" H 6555 2527 50  0000 C CNN
 F 2 "" H 6550 2700 50  0001 C CNN
 F 3 "" H 6550 2700 50  0001 C CNN
@@ -275,10 +275,10 @@ Wire Wire Line
 	6650 1750 6650 2250
 NoConn ~ 6800 2150
 $Comp
-L power:VDD #PWR0108
+L power:VDD #PWR035
 U 1 1 5F116A17
 P 5400 1900
-F 0 "#PWR0108" H 5400 1750 50  0001 C CNN
+F 0 "#PWR035" H 5400 1750 50  0001 C CNN
 F 1 "VDD" H 5415 2073 50  0000 C CNN
 F 2 "" H 5400 1900 50  0001 C CNN
 F 3 "" H 5400 1900 50  0001 C CNN
@@ -288,10 +288,10 @@ $EndComp
 Wire Wire Line
 	5400 1900 5400 2050
 $Comp
-L power:PWR_FLAG #FLG0103
+L power:PWR_FLAG #FLG03
 U 1 1 5F17F954
 P 3400 1950
-F 0 "#FLG0103" H 3400 2025 50  0001 C CNN
+F 0 "#FLG03" H 3400 2025 50  0001 C CNN
 F 1 "PWR_FLAG" H 3400 2123 50  0000 C CNN
 F 2 "" H 3400 1950 50  0001 C CNN
 F 3 "~" H 3400 1950 50  0001 C CNN
@@ -305,26 +305,9 @@ Text HLabel 6350 1750 0    50   Input ~ 0
 SCL
 Text HLabel 6350 1850 0    50   Input ~ 0
 SDA
-Wire Wire Line
-	2650 2150 2650 1850
-Wire Wire Line
-	2650 1850 2600 1850
-Connection ~ 2650 2150
-Wire Wire Line
-	2200 1850 2150 1850
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5F2D861D
-P 2400 1850
-F 0 "SW1" H 2400 2135 50  0000 C CNN
-F 1 "SW_Push" H 2400 2044 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h5mm" H 2400 2050 50  0001 C CNN
-F 3 "~" H 2400 2050 50  0001 C CNN
-	1    2400 1850
-	1    0    0    -1  
-$EndComp
 Text Notes 7300 3100 0    50   ~ 0
 J6 pin 5 is "rescue" pin for I2C SCL.\nIn case of some slave I2C SDA is stick to "L", \ntoggling SCL by this rescue pin can release the \nslave. \n\nThis rescue pin have to be configured as open \ndrain, and have to be kept as "H" during \nnormal operation. \n\nJ6 pin 5 is PA6 of Nucleo G431RB and F722ZE
 Text Notes 2650 3800 0    50   ~ 0
 In the data sheet of TA48L033F, the pins are defined as :\n1. IN\n2. OUT\n3. GND\nTab. GND\n\nBut this definition doesn't fit to the SOT223 footprint \nof KiCAD. Thus, the pin assignment of the above symbol\nfollow the KiCAD SOT223.
+NoConn ~ 2150 1850
 $EndSCHEMATC

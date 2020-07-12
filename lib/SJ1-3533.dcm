@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SJ1-3533
+D Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve
+K audio jack receptacle mono phone headphone TS connector
+F https://www.digikey.jp/product-detail/ja/cui-devices/SJ1-3533/CP1-3533-ND/738695
+$ENDCMP
+#
+#End Doc Library
