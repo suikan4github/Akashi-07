@@ -63,7 +63,7 @@ U 1 1 5F0FEF6E
 P 4050 2050
 F 0 "U5" H 4050 2292 50  0000 C CNN
 F 1 "TA48L033" H 4050 2201 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 4050 2250 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-89-3_Handsoldering" H 4050 2250 50  0001 C CNN
 F 3 "https://toshiba.semicon-storage.com/jp/semiconductor/product/power-management-ics/detail.TA48L033F.html" H 4050 2000 50  0001 C CNN
 	1    4050 2050
 	1    0    0    -1  
@@ -308,6 +308,6 @@ SDA
 Text Notes 7300 3100 0    50   ~ 0
 J6 pin 5 is "rescue" pin for I2C SCL.\nIn case of some slave I2C SDA is stick to "L", \ntoggling SCL by this rescue pin can release the \nslave. \n\nThis rescue pin have to be configured as open \ndrain, and have to be kept as "H" during \nnormal operation. \n\nJ6 pin 5 is PA6 of Nucleo G431RB and F722ZE
 Text Notes 2650 3800 0    50   ~ 0
-In the data sheet of TA48L033F, the pins are defined as :\n1. IN\n2. OUT\n3. GND\nTab. GND\n\nBut this definition doesn't fit to the SOT223 footprint \nof KiCAD. Thus, the pin assignment of the above symbol\nfollow the KiCAD SOT223.
+In the data sheet of TA48L033F, the pins are defined as :\n1. IN\n2. OUT\n3. GND\nTab. GND\n\nBut this definition doesn't fit to the SOT89-3 footprint \nof KiCAD. Thus, the pin assignment of the above symbol\nfollow the KiCAD SOT89-3.
 NoConn ~ 2150 1850
 $EndSCHEMATC
