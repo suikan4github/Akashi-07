@@ -21,6 +21,7 @@ F 0 "J4" H 2030 1942 50  0000 L CNN
 F 1 "Conn_01x08" H 2030 1851 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1950 1950 50  0001 C CNN
 F 3 "~" H 1950 1950 50  0001 C CNN
+F 4 "WM5543-ND" H 1950 1950 50  0001 C CNN "DigiKey"
 	1    1950 1950
 	-1   0    0    -1  
 $EndComp
@@ -43,6 +44,7 @@ F 0 "J7" H 6918 2825 50  0000 C CNN
 F 1 "Conn_01x08" H 6918 2916 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7000 3450 50  0001 C CNN
 F 3 "~" H 7000 3450 50  0001 C CNN
+F 4 "WM5543-ND" H 7000 3450 50  0001 C CNN "DigiKey"
 	1    7000 3450
 	1    0    0    1   
 $EndComp
@@ -56,61 +58,6 @@ F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 7000 2250 50  0001 C CN
 F 3 "~" H 7000 2250 50  0001 C CNN
 	1    7000 2250
 	1    0    0    1   
-$EndComp
-$Comp
-L TA48L033:TA48L033 U5
-U 1 1 5F0FEF6E
-P 4050 2050
-F 0 "U5" H 4050 2292 50  0000 C CNN
-F 1 "TA48L033" H 4050 2201 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-89-3_Handsoldering" H 4050 2250 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/jp/semiconductor/product/power-management-ics/detail.TA48L033F.html" H 4050 2000 50  0001 C CNN
-	1    4050 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C17
-U 1 1 5F0FF888
-P 3400 2300
-F 0 "C17" H 3515 2346 50  0000 L CNN
-F 1 "0.1u" H 3515 2255 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3438 2150 50  0001 C CNN
-F 3 "~" H 3400 2300 50  0001 C CNN
-	1    3400 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C16
-U 1 1 5F0FFE19
-P 3000 2300
-F 0 "C16" H 3118 2346 50  0000 L CNN
-F 1 "47u" H 3118 2255 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D8.0mm_P2.50mm" H 3038 2150 50  0001 C CNN
-F 3 "~" H 3000 2300 50  0001 C CNN
-	1    3000 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C18
-U 1 1 5F100006
-P 4600 2300
-F 0 "C18" H 4715 2346 50  0000 L CNN
-F 1 "0.1u" H 4715 2255 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4638 2150 50  0001 C CNN
-F 3 "~" H 4600 2300 50  0001 C CNN
-	1    4600 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C19
-U 1 1 5F100230
-P 5000 2300
-F 0 "C19" H 5118 2346 50  0000 L CNN
-F 1 "47u" H 5118 2255 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D8.0mm_P2.50mm" H 5038 2150 50  0001 C CNN
-F 3 "~" H 5000 2300 50  0001 C CNN
-	1    5000 2300
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR032
@@ -135,17 +82,6 @@ F 3 "" H 3400 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
-U 1 1 5F1052CF
-P 3000 2650
-F 0 "#PWR030" H 3000 2400 50  0001 C CNN
-F 1 "GND" H 3005 2477 50  0000 C CNN
-F 2 "" H 3000 2650 50  0001 C CNN
-F 3 "" H 3000 2650 50  0001 C CNN
-	1    3000 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR033
 U 1 1 5F1054A0
 P 4600 2650
@@ -156,51 +92,18 @@ F 3 "" H 4600 2650 50  0001 C CNN
 	1    4600 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 5F105733
-P 5000 2650
-F 0 "#PWR034" H 5000 2400 50  0001 C CNN
-F 1 "GND" H 5005 2477 50  0000 C CNN
-F 2 "" H 5000 2650 50  0001 C CNN
-F 3 "" H 5000 2650 50  0001 C CNN
-	1    5000 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 2050 5000 2050
 Wire Wire Line
 	3400 2150 3400 2050
 Connection ~ 3400 2050
-Wire Wire Line
-	3400 2050 3750 2050
-Wire Wire Line
-	3000 2150 3000 2050
-Connection ~ 3000 2050
-Wire Wire Line
-	3000 2050 3400 2050
 Wire Wire Line
 	4600 2050 4600 2150
 Connection ~ 4600 2050
 Wire Wire Line
 	4600 2050 4350 2050
 Wire Wire Line
-	5000 2150 5000 2050
-Connection ~ 5000 2050
-Wire Wire Line
-	5000 2050 4600 2050
-Wire Wire Line
-	5000 2450 5000 2650
-Wire Wire Line
 	4600 2650 4600 2450
 Wire Wire Line
 	3400 2650 3400 2450
-Wire Wire Line
-	3000 2450 3000 2650
-Wire Wire Line
-	4050 2650 4050 2350
-Wire Wire Line
-	2150 2050 3000 2050
 Wire Wire Line
 	2150 2150 2650 2150
 Wire Wire Line
@@ -310,4 +213,103 @@ J6 pin 5 is "rescue" pin for I2C SCL.\nIn case of some slave I2C SDA is stick to
 Text Notes 2650 3800 0    50   ~ 0
 In the data sheet of TA48L033F, the pins are defined as :\n1. IN\n2. OUT\n3. GND\nTab. GND\n\nBut this definition doesn't fit to the SOT89-3 footprint \nof KiCAD. Thus, the pin assignment of the above symbol\nfollow the KiCAD SOT89-3.
 NoConn ~ 2150 1850
+Wire Wire Line
+	5000 2450 5000 2650
+Wire Wire Line
+	5000 2050 4600 2050
+Wire Wire Line
+	5400 2050 5000 2050
+Connection ~ 5000 2050
+Wire Wire Line
+	5000 2150 5000 2050
+$Comp
+L power:GND #PWR034
+U 1 1 5F105733
+P 5000 2650
+F 0 "#PWR034" H 5000 2400 50  0001 C CNN
+F 1 "GND" H 5005 2477 50  0000 C CNN
+F 2 "" H 5000 2650 50  0001 C CNN
+F 3 "" H 5000 2650 50  0001 C CNN
+	1    5000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2450 3000 2650
+$Comp
+L power:GND #PWR030
+U 1 1 5F1052CF
+P 3000 2650
+F 0 "#PWR030" H 3000 2400 50  0001 C CNN
+F 1 "GND" H 3005 2477 50  0000 C CNN
+F 2 "" H 3000 2650 50  0001 C CNN
+F 3 "" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2050 3000 2050
+Wire Wire Line
+	3000 2050 3400 2050
+Connection ~ 3000 2050
+Wire Wire Line
+	3000 2150 3000 2050
+Wire Wire Line
+	3400 2050 3750 2050
+Wire Wire Line
+	4050 2650 4050 2350
+$Comp
+L Device:C C18
+U 1 1 5F100006
+P 4600 2300
+F 0 "C18" H 4715 2346 50  0000 L CNN
+F 1 "0.1u" H 4715 2255 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4638 2150 50  0001 C CNN
+F 3 "~" H 4600 2300 50  0001 C CNN
+	1    4600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C19
+U 1 1 5F100230
+P 5000 2300
+F 0 "C19" H 5118 2346 50  0000 L CNN
+F 1 "47u" H 5118 2255 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P2.50mm" H 5038 2150 50  0001 C CNN
+F 3 "~" H 5000 2300 50  0001 C CNN
+	1    5000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5F0FF888
+P 3400 2300
+F 0 "C17" H 3515 2346 50  0000 L CNN
+F 1 "0.1u" H 3515 2255 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3438 2150 50  0001 C CNN
+F 3 "~" H 3400 2300 50  0001 C CNN
+	1    3400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C16
+U 1 1 5F0FFE19
+P 3000 2300
+F 0 "C16" H 3118 2346 50  0000 L CNN
+F 1 "47u" H 3118 2255 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P2.50mm" H 3038 2150 50  0001 C CNN
+F 3 "~" H 3000 2300 50  0001 C CNN
+	1    3000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TA48L033:TA48L033 U5
+U 1 1 5F0FEF6E
+P 4050 2050
+F 0 "U5" H 4050 2292 50  0000 C CNN
+F 1 "TA48L033" H 4050 2201 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-89-3_Handsoldering" H 4050 2250 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/jp/semiconductor/product/power-management-ics/detail.TA48L033F.html" H 4050 2000 50  0001 C CNN
+	1    4050 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

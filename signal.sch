@@ -21,6 +21,7 @@ F 0 "U1" H 3200 4300 50  0000 C CNN
 F 1 "Si5351A-B-GT" H 3350 4200 50  0000 C CNN
 F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 3000 3950 50  0001 C CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf" H 2650 4650 50  0001 C CNN
+F 4 "336-2399-5-ND" H 3000 4750 50  0001 C CNN "DigiKey"
 	1    3000 4750
 	1    0    0    -1  
 $EndComp
@@ -32,6 +33,7 @@ F 0 "X1" H 1200 3900 50  0000 L CNN
 F 1 "CSX-750FBC25000000T" H 1200 3800 50  0000 L CNN
 F 2 "Oscillators:Oscillator_SMD_SeikoEpson_SG8002CA-4pin_7.0x5.0mm_HandSoldering" H 2300 4100 50  0001 C CNN
 F 3 "https://www.digikey.jp/product-detail/ja/citizen-finedevice-co-ltd/CSX-750FBC25000000T/300-7246-1-ND/482134" H 1500 4450 50  0001 C CNN
+F 4 "300-7246-1-ND" H 1600 4450 50  0001 C CNN "DigiKey"
 	1    1600 4450
 	1    0    0    -1  
 $EndComp
@@ -43,6 +45,7 @@ F 0 "U2" H 4650 5100 50  0000 C CNN
 F 1 "SN74LVC74APW" H 4650 5000 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 4700 4550 50  0001 C CNN
 F 3 "https://www.tij.co.jp/product/jp/SN74LVC74A" H 4700 4550 50  0001 C CNN
+F 4 "296-1241-1-ND" H 4700 4550 50  0001 C CNN "DigiKey"
 	1    4700 4550
 	1    0    0    -1  
 $EndComp
@@ -329,6 +332,7 @@ F 0 "U2" H 7080 5396 50  0000 L CNN
 F 1 "SN74LVC74APW" H 7080 5305 50  0000 L CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 6850 5350 50  0001 C CNN
 F 3 "https://www.tij.co.jp/product/jp/SN74LVC74A" H 6850 5350 50  0001 C CNN
+F 4 "296-1241-1-ND" H 6850 5350 50  0001 C CNN "DigiKey"
 	3    6850 5350
 	1    0    0    -1  
 $EndComp
@@ -340,6 +344,7 @@ F 0 "U4" H 9400 3067 50  0000 C CNN
 F 1 "AD8032ANZ" H 9400 2976 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 9500 2700 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8031_8032.pdf" H 9650 2850 50  0001 C CNN
+F 4 "AD8032ANZ-ND" H 9400 2700 50  0001 C CNN "DigiKey"
 	1    9400 2700
 	1    0    0    -1  
 $EndComp
@@ -351,6 +356,7 @@ F 0 "U4" H 9400 4067 50  0000 C CNN
 F 1 "AD8032ANZ" H 9400 3976 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 9500 3700 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8031_8032.pdf" H 9650 3850 50  0001 C CNN
+F 4 "AD8032ANZ-ND" H 9400 3700 50  0001 C CNN "DigiKey"
 	2    9400 3700
 	1    0    0    -1  
 $EndComp
@@ -362,6 +368,7 @@ F 0 "U4" H 9158 5346 50  0000 L CNN
 F 1 "AD8032ANZ" H 9158 5255 50  0000 L CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 9200 5300 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8031_8032.pdf" H 9350 5450 50  0001 C CNN
+F 4 "AD8032ANZ-ND" H 9100 5300 50  0001 C CNN "DigiKey"
 	3    9100 5300
 	1    0    0    -1  
 $EndComp
@@ -553,6 +560,7 @@ F 0 "L1" H 4503 1896 50  0000 L CNN
 F 1 "10mH" H 4503 1805 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 4450 1850 50  0001 C CNN
 F 3 "https://www.digikey.jp/product-detail/en/tdk-electronics-inc/B82144A2106J000/495-5615-1-ND/4245955" H 4450 1850 50  0001 C CNN
+F 4 "495-5590-1-ND" H 4450 1850 50  0001 C CNN "DigiKey"
 	1    4450 1850
 	1    0    0    -1  
 $EndComp
@@ -725,6 +733,7 @@ F 0 "J2" H 2868 2967 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2868 2876 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 2950 2750 50  0001 C CNN
 F 3 "~" H 2950 2750 50  0001 C CNN
+F 4 "281-2888-ND" H 2950 2750 50  0001 C CNN "DigiKey"
 	1    2950 2750
 	-1   0    0    -1  
 $EndComp
@@ -1005,6 +1014,7 @@ F 0 "U2" H 4300 5300 50  0000 C CNN
 F 1 "SN74LVC74APW" H 4300 5200 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 4700 5600 50  0001 C CNN
 F 3 "https://www.tij.co.jp/product/jp/SN74LVC74A" H 4700 5600 50  0001 C CNN
+F 4 "296-1241-1-ND" H 4700 5600 50  0001 C CNN "DigiKey"
 	2    4700 5600
 	1    0    0    -1  
 $EndComp
@@ -1133,6 +1143,7 @@ F 0 "J3" H 10470 3268 50  0000 R CNN
 F 1 "SJ1-3533" H 10550 3050 50  0000 R CNN
 F 2 "project_lib:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles" H 10650 3250 50  0001 C CNN
 F 3 "https://www.digikey.jp/product-detail/ja/cui-devices/SJ1-3533/CP1-3533-ND/738695" H 10650 3250 50  0001 C CNN
+F 4 "CP1-3533N-ND" H 10650 3250 50  0001 C CNN "DigiKey"
 	1    10650 3250
 	-1   0    0    -1  
 $EndComp
@@ -1146,6 +1157,7 @@ F 0 "U3" H 6650 2987 60  0000 C CNN
 F 1 "TS5A23157DGSR" H 6650 2881 60  0000 C CNN
 F 2 "project_lib:TS5A23157DGSR" H 6650 2840 60  0001 C CNN
 F 3 "https://www.tij.co.jp/product/jp/TS5A23157" H 5850 2500 60  0001 C CNN
+F 4 "296-17076-1-ND" H 5850 2500 50  0001 C CNN "DigiKey"
 	1    5850 2500
 	1    0    0    -1  
 $EndComp
