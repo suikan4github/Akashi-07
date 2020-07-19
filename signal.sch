@@ -558,9 +558,9 @@ U 1 1 5F0E06C6
 P 4450 1850
 F 0 "L1" H 4503 1896 50  0000 L CNN
 F 1 "10mH" H 4503 1805 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" H 4450 1850 50  0001 C CNN
+F 2 "Inductors_THT:L_Axial_L7.0mm_D3.3mm_P5.08mm_Vertical_Fastron_MICC" H 4450 1850 50  0001 C CNN
 F 3 "https://www.digikey.jp/product-detail/en/tdk-electronics-inc/B82144A2106J000/495-5615-1-ND/4245955" H 4450 1850 50  0001 C CNN
-F 4 "495-5590-1-ND" H 4450 1850 50  0001 C CNN "DigiKey"
+F 4 "AIAP-01-102K-TCT-ND" H 4450 1850 50  0001 C CNN "DigiKey"
 	1    4450 1850
 	1    0    0    -1  
 $EndComp
@@ -722,6 +722,7 @@ F 0 "J1" H 2878 1988 50  0000 C CNN
 F 1 "Conn_Coaxial" H 2878 1897 50  0000 C CNN
 F 2 "Connectors:SMA_THT_Jack_Straight" H 2950 1750 50  0001 C CNN
 F 3 " ~" H 2950 1750 50  0001 C CNN
+F 4 "WM5543-ND" H 2950 1750 50  0001 C CNN "DigiKey"
 	1    2950 1750
 	-1   0    0    -1  
 $EndComp
@@ -1031,8 +1032,8 @@ Wire Wire Line
 	5000 5500 5400 5500
 Wire Wire Line
 	5400 5500 5400 3200
-Text Notes 3950 1600 0    50   ~ 0
-B82144A2106J000
+Text Notes 3800 1950 0    50   ~ 0
+Abracon AIAP-01-102K-T\nAIAP-01-102K-TCT-ND	\n\n
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5F2F2A63

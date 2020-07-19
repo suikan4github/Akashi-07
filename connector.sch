@@ -21,7 +21,7 @@ F 0 "J4" H 2030 1942 50  0000 L CNN
 F 1 "Conn_01x08" H 2030 1851 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1950 1950 50  0001 C CNN
 F 3 "~" H 1950 1950 50  0001 C CNN
-F 4 "WM5543-ND" H 1950 1950 50  0001 C CNN "DigiKey"
+F 4 "" H 1950 1950 50  0001 C CNN "DigiKey"
 	1    1950 1950
 	-1   0    0    -1  
 $EndComp
@@ -44,7 +44,7 @@ F 0 "J7" H 6918 2825 50  0000 C CNN
 F 1 "Conn_01x08" H 6918 2916 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7000 3450 50  0001 C CNN
 F 3 "~" H 7000 3450 50  0001 C CNN
-F 4 "WM5543-ND" H 7000 3450 50  0001 C CNN "DigiKey"
+F 4 "" H 7000 3450 50  0001 C CNN "DigiKey"
 	1    7000 3450
 	1    0    0    1   
 $EndComp
